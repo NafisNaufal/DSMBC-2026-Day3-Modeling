@@ -1,0 +1,10 @@
+flowchart LR
+    D["Data hasil Day 2"] --> A["Train"]
+    D --> B["Validation"]
+    D --> C["Test"]
+    A --> M["Latih model"]
+    M --> S["Bandingkan model"]
+    B --> S
+    S --> E["Model terpilih"]
+    E --> T["Evaluasi akhir"]
+    C --> T

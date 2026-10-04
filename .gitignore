@@ -1,0 +1,17 @@
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Hasil latihan (dibuat saat notebook dijalankan)
+*.joblib
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/

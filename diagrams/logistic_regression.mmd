@@ -1,0 +1,7 @@
+flowchart LR
+    A["Fitur pinjaman"] --> B["Skor linear"]
+    B --> C["Sigmoid"]
+    C --> D["P(Default)"]
+    D --> E{"p >= 0.5?"}
+    E -->|Ya| F["Default (1)"]
+    E -->|Tidak| G["Non-default (0)"]
